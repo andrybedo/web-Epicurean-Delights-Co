@@ -1,0 +1,10 @@
+// JavaScript for basic interactions (optional)
+
+document.addEventListener('DOMContentLoaded', function() {
+    const ctaButton = document.querySelector('.cta-btn');
+    
+    // Example of interaction: when the CTA button is clicked
+    ctaButton.addEventListener('click', function() {
+        alert('Thank you for exploring! More features coming soon.');
+    });
+});
